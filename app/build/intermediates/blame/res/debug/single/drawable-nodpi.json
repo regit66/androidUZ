@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\road.png",
+        "source": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\drawable-nodpi\\road.png"
+    },
+    {
+        "merged": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\controller.png",
+        "source": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\drawable-nodpi\\controller.png"
+    },
+    {
+        "merged": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\player_car.png",
+        "source": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\drawable-nodpi\\player_car.png"
+    },
+    {
+        "merged": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\accelerator.png",
+        "source": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\drawable-nodpi\\accelerator.png"
+    },
+    {
+        "merged": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\breaks.png",
+        "source": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\drawable-nodpi\\breaks.png"
+    }
+]

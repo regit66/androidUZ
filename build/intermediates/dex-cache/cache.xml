@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcin\AndroidStudioProjects\RoadRacerLite\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c477c371f2901f8e7a7fb4d25d40d0738c42b2f2">
+        <dex dex="C:\Users\Marcin\AndroidStudioProjects\RoadRacerLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6ef0611701feb8e7e1d67769b213bb3de5427a52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcin\AndroidStudioProjects\RoadRacerLite\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b997a31d01add0243cf81a472f3c2546c8c48000">
+        <dex dex="C:\Users\Marcin\AndroidStudioProjects\RoadRacerLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ea55856addcad60640225e0d23a273488976a6a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Marcin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Marcin\AndroidStudioProjects\RoadRacerLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_64bc6171015ce379e80aa65d634514b61ec854c4\classes.dex" />
+    </item>
+
+</items>
