@@ -1,17 +1,22 @@
 package com.ajaybadgujar.roadracerlite;
 
 import android.opengl.GLSurfaceView.Renderer;
+import android.util.Log;
 
 import java.util.Random;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-public class GameRenderer implements Renderer{
 
+public class GameRenderer  implements Renderer{
+
+	private GameActivity gameView;
 	private TexRoad road = new TexRoad();
-	private TexCar car = new TexCar();
-	private TexCar enemy= new TexCar();
+	private TexCar player = new TexCar();
+	private TexCar enemy = new TexCar();
+	private TexCar enemy2 = new TexCar();
+	private TexCar enemy3 = new TexCar();
 	private TexController accelerator = new TexController();
 	private TexController breaks = new TexController();
 	private GL10 gl;
@@ -28,6 +33,7 @@ public class GameRenderer implements Renderer{
 	private float carSpeed = 0.0f;
 	private float speedenemy=10;
     private int i1;
+
 
 
 
@@ -52,13 +58,22 @@ public class GameRenderer implements Renderer{
 		DrawRoad(gl);
 		DrawCar(gl);
 
-		DrawEnemy(gl ,i1);
+
+
+
+
 
 
 		DrawAccel(gl);
 		DrawBreaks(gl);
 
-		DrawEnemy(gl ,i1);
+
+		DrawEnemy(enemy, gl, i1);
+		DrawEnemy(enemy, gl, i1);
+		DrawEnemy(enemy2, gl, i1);
+		DrawEnemy(enemy3, gl, i1);
+		//DrawEnemy(new TexCar(), gl, i1);
+
 
 
 
@@ -113,12 +128,12 @@ public class GameRenderer implements Renderer{
 		gl.glLoadIdentity();
 		gl.glTranslatef(0.0f, roadYOffset, 0.0f);
 
-		road.draw(gl);		
+		road.draw(gl);
 		gl.glPopMatrix();
-		
+
 		gl.glLoadIdentity();
 	}
-	
+
 	private void MoveCar(){
 
 		if(Global.PLAYER_ACTION != Global.ACCELERATOR_PRESSED) return;
@@ -140,42 +155,62 @@ public class GameRenderer implements Renderer{
 		}
 	}
 
-	private void MoveCarEnemy(){
 
 
+	public void DrawEnemy(TexCar car,GL10 gl ,float il){
+
+		Log.i("ddd","ddd"+ carCurrentPos);
+		if (car.getSpedd()<=-1)
+		{Random r = new Random();
+			car.setTrack(r.nextInt(3) + 2);
+			car.setSpedd(10);
+
+		}
+		if (car.getSpedd()<=2 && car.getTrack()==carCurrentPos)
+		{
+
+			Log.i("ddd","ddd"+ carCurrentPos);
+			GameActivity.getInstance().finish();
+
+		}
+		//MoveCarEnemy();
+	//	for (int i=1; i<10; i++) {
 
 		Random r = new Random();
 		float minX = 0.01f;
 		float maxX = 0.025f;
 		float finalX = r.nextFloat() * (maxX - minX) + minX;
-		speedenemy -= finalX;
-		// musi byc na stale bo caly czas odswieza
-		//i1 = r.nextInt(5 - 2) + 2;
-		i1=2;
+		car.setSpedd(car.getSpedd()-finalX);
+
+
+		if (car.getTrack()==0) {
+			car.setTrack(r.nextInt(2) + 1);
+			car.setTrack(car.getTrack()+ 0.8f);
+		}
 
 
 
-	}
-	public void DrawEnemy(GL10 gl ,float il){
 
-		MoveCarEnemy();
-	//	for (int i=1; i<10; i++) {
+
 		gl.glMatrixMode(GL10.GL_MODELVIEW);
 		gl.glLoadIdentity();
 		gl.glPushMatrix();
 		gl.glScalef(.15f, Global.getProportionateHeight(0.15f), .15f);
-		gl.glTranslatef(il, speedenemy, 0f);
+
+		gl.glTranslatef(car.getTrack(), car.getSpedd(), 0f);
 
 		gl.glMatrixMode(GL10.GL_TEXTURE);
 		gl.glLoadIdentity();
 		gl.glTranslatef(0.0f, 0.0f, 0.0f);
 
-		enemy.draw(gl);
+		car.draw(gl);
 		gl.glPopMatrix();
 
 		gl.glLoadIdentity();
 
 	}
+
+
 
 	public void DrawCar(GL10 gl){
 		gl.glMatrixMode(GL10.GL_MODELVIEW);
@@ -188,10 +223,11 @@ public class GameRenderer implements Renderer{
 		gl.glLoadIdentity();
 		gl.glTranslatef(0.0f, 0.0f, 0.0f);
 
-		car.draw(gl);
+		player.draw(gl);
 		gl.glPopMatrix();
 		
 		gl.glLoadIdentity();
+		gl.glActiveTexture(Global.CAR);
 	}
 	
 	public void DrawAccel(GL10 gl){
@@ -246,8 +282,10 @@ public class GameRenderer implements Renderer{
 		
 		// Load textures
 		road.loadTexture(gl, Global.ROAD , Global.context);
-		car.loadTexture(gl, Global.CAR, Global.context);
+		player.loadTexture(gl, Global.CAR, Global.context);
 		enemy.loadTexture(gl, Global.CAR, Global.context);
+		enemy2.loadTexture(gl, Global.CAR, Global.context);
+		enemy3.loadTexture(gl, Global.CAR, Global.context);
 		accelerator.loadTexture(gl, Global.ACCELERATOR, Global.context);
 		breaks.loadTexture(gl, Global.BREAKS, Global.context);
 	}

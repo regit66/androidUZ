@@ -9,7 +9,7 @@ public class GameView extends GLSurfaceView {
 	
 	public GameView(Context context) {
 		super(context);
-		
+
 		renderer = new GameRenderer();
 		
 		this.setRenderer(renderer);

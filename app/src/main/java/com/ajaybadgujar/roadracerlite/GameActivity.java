@@ -11,19 +11,27 @@ import android.view.MotionEvent;
 public class GameActivity extends Activity implements SensorEventListener{
 	
 	private SensorManager sensorManager;
-	
+	static GameActivity activityA;
 	private GameView gameView;	
 	
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {			
 			super.onCreate(savedInstanceState);			
 			gameView = new GameView(this);			
-			setContentView(gameView);	
-			
+			setContentView(gameView);
+			activityA = this;
 			sensorManager=(SensorManager) getSystemService(SENSOR_SERVICE);
 	        sensorManager.registerListener(this, sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER), SensorManager.SENSOR_DELAY_NORMAL);
 		}
-		
+
+	public static GameActivity getInstance(){
+		return   activityA;
+	}
+	public void onFinishCallback()
+	{
+		this.finish();
+	}
+
 		@Override
 		protected void onResume() {			
 			super.onResume();

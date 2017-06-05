@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_btn.png",
-        "source": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\drawable-hdpi\\start_btn.png"
+        "merged": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_btn.png",
+        "source": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\start_btn.png"
     },
     {
-        "merged": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_btn_pressed.png",
-        "source": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\drawable-hdpi\\start_btn_pressed.png"
+        "merged": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\menu_bg.png",
+        "source": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\menu_bg.png"
     },
     {
-        "merged": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\menu_bg.png",
-        "source": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\drawable-hdpi\\menu_bg.png"
+        "merged": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_btn_pressed.png",
+        "source": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\start_btn_pressed.png"
     }
 ]

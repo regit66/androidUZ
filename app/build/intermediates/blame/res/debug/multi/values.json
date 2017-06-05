@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 103
                 },
                 "from": {
-                    "file": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 156
                 },
                 "from": {
-                    "file": "C:\\Users\\Marcin\\AndroidStudioProjects\\RoadRacerLite\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
