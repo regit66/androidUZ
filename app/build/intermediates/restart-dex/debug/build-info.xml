@@ -5,40 +5,43 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="20795026270413"
-    token="-5801277155819006093"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="30655571710029"
+    token="-5801277155819006093" >
 
     <task
         name="javac"
-        duration="86" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="11" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
-
-    <artifact
-        location="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-        type="DEX" />
+        duration="0" />
 
     <build
-        timestamp="17925932055471"
+        timestamp="30588378282999"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="20795026270413"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="30641187329098"
+        verifier="COMPATIBLE" >
         <artifact
-            location="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
+            location="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\intermediates\builds\debug\30641187329098\classes.dex"
+            type="RELOAD_DEX" />
     </build>
+    <build
+        timestamp="30647644625618"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\intermediates\builds\debug\30647644625618\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="30655571710029" />
 
 </instant-run>

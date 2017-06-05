@@ -69,11 +69,10 @@ public class GameRenderer  implements Renderer{
 		DrawBreaks(gl);
 
 		DrawEnemy(enemy, gl, i1);
-	DrawEnemy(enemy, gl, i1);
+		DrawEnemy(enemy, gl, i1);
 		DrawEnemy(enemy4, gl, i1);
 		DrawEnemy(enemy2, gl, i1);
 		DrawEnemy(enemy3, gl, i1);
-		//DrawEnemy(new TexCar(), gl, i1);
 
 
 
@@ -167,7 +166,8 @@ public class GameRenderer  implements Renderer{
 			car.setSpedd(10);
 
 		}
-		if (car.getSpedd()<=2   )
+		Log.i("ddd","speed"+ car.getSpedd());
+		if (car.getSpedd()<=2 &&  car.getSpedd()>=0.8   )
 			if(car.getTrack()+0.3f<carCurrentPos&& car.getTrack()+0.5>carCurrentPos  ||car.getTrack()-0.3f>carCurrentPos&& car.getTrack()-0.5<carCurrentPos)
 			{
 
@@ -175,7 +175,7 @@ public class GameRenderer  implements Renderer{
 				GameActivity.getInstance().finish();
 
 			}
-		if (car.getSpedd()<=2   )
+		if (car.getSpedd()<=2 &&  car.getSpedd()>=0.8   )
 			if(car.getTrack()-0.3f<carCurrentPos&& car.getTrack()+0.5>carCurrentPos  ||car.getTrack()+0.3f>carCurrentPos&& car.getTrack()-0.5<carCurrentPos)
 		{
 

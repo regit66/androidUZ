@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="1d60acfdcf91b5b15cc01ff77a9aeec31015fd52">
+        sha1="e4121498a53475d2b41263ad769b2889a4b1d6f0">
         <dex dex="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_593ee398d7657ac6f623dbcee35d3862e7e0a866\classes.dex" />
     </item>
     <item
@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="5072d919ba35f262ee412dc0d506c180e0ae270a">
+        sha1="9a8481f737fca1045c9ef14c12fd9b52adf2d744">
         <dex dex="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7815711143974be63a7649bf08b6b0c7462a77e7\classes.dex" />
     </item>
     <item

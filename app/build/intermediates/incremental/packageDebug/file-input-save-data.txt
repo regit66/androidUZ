@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jun 05 14:06:54 CEST 2017
+#Mon Jun 05 17:34:32 CEST 2017
 25.file=C\:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-nodpi-v4\\breaks.png
 25.base=C\:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\resources-debug.ap_
 22.set=ANDROID_RESOURCE
