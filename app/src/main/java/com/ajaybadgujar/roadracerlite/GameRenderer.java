@@ -17,6 +17,7 @@ public class GameRenderer  implements Renderer{
 	private TexCar enemy = new TexCar();
 	private TexCar enemy2 = new TexCar();
 	private TexCar enemy3 = new TexCar();
+	private TexCar enemy4 = new TexCar();
 	private TexController accelerator = new TexController();
 	private TexController breaks = new TexController();
 	private GL10 gl;
@@ -67,9 +68,9 @@ public class GameRenderer  implements Renderer{
 		DrawAccel(gl);
 		DrawBreaks(gl);
 
-
 		DrawEnemy(enemy, gl, i1);
-		DrawEnemy(enemy, gl, i1);
+	DrawEnemy(enemy, gl, i1);
+		DrawEnemy(enemy4, gl, i1);
 		DrawEnemy(enemy2, gl, i1);
 		DrawEnemy(enemy3, gl, i1);
 		//DrawEnemy(new TexCar(), gl, i1);
@@ -166,7 +167,16 @@ public class GameRenderer  implements Renderer{
 			car.setSpedd(10);
 
 		}
-		if (car.getSpedd()<=2 && car.getTrack()==carCurrentPos)
+		if (car.getSpedd()<=2   )
+			if(car.getTrack()+0.3f<carCurrentPos&& car.getTrack()+0.5>carCurrentPos  ||car.getTrack()-0.3f>carCurrentPos&& car.getTrack()-0.5<carCurrentPos)
+			{
+
+				Log.i("ddd","ddd"+ carCurrentPos);
+				GameActivity.getInstance().finish();
+
+			}
+		if (car.getSpedd()<=2   )
+			if(car.getTrack()-0.3f<carCurrentPos&& car.getTrack()+0.5>carCurrentPos  ||car.getTrack()+0.3f>carCurrentPos&& car.getTrack()-0.5<carCurrentPos)
 		{
 
 			Log.i("ddd","ddd"+ carCurrentPos);
@@ -286,6 +296,7 @@ public class GameRenderer  implements Renderer{
 		enemy.loadTexture(gl, Global.CAR, Global.context);
 		enemy2.loadTexture(gl, Global.CAR, Global.context);
 		enemy3.loadTexture(gl, Global.CAR, Global.context);
+		enemy4.loadTexture(gl, Global.CAR, Global.context);
 		accelerator.loadTexture(gl, Global.ACCELERATOR, Global.context);
 		breaks.loadTexture(gl, Global.BREAKS, Global.context);
 	}
