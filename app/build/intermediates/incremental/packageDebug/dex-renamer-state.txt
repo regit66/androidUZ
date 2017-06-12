@@ -1,4 +1,4 @@
-#Mon Jun 12 09:39:09 CEST 2017
+#Mon Jun 12 17:42:35 CEST 2017
 base.0=C\:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_25e0737018fa27952ec41545fb13b0a86e558e1b
 renamed.1=classes.dex
 renamed.0=classes2.dex

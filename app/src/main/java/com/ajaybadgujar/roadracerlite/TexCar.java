@@ -34,8 +34,8 @@ public class TexCar extends Texture {
 
 		Bounds bounds = new Bounds();
 
-		float v = 0.4f;
-		float h = 0.05f;
+		float v = .26f;
+		float h = .56f;
 
 		bounds.Top = position + h;
 		bounds.Down = position - h;

@@ -13,7 +13,7 @@ public class GameRenderer  implements Renderer{
 	private EnemiesController enemies;
 
 	private TexRoad road = new TexRoad();
-	private TexCar player = new TexCar(2.8f, 2.8f);
+	private TexCar player = new TexCar(1.5f, 2.8f);
 	private TexController accelerator = new TexController();
 	private TexController breaks = new TexController();
 
@@ -25,12 +25,8 @@ public class GameRenderer  implements Renderer{
 	// Car horizontal position limit in scale
 	private static float carLLimit = 1.6f;
 	private static float carRLimit = 4f;
-	private static float carCenterPos = 2.8f;
 
-	//private float carCurrentPos = 2.8f;
 	private float roadYOffset = 0.0f;
-	//private float carSpeed = 0.0f;
-	private float speedenemy=10;
 
 	@Override
 	public void onDrawFrame(GL10 gl) {
@@ -52,8 +48,8 @@ public class GameRenderer  implements Renderer{
 		MoveCar();
 
 		DrawRoad(gl);
-		DrawCar(gl);
 		DrawEnemies(gl);
+		DrawCar(gl);
 
 		DrawAccel(gl);
 		DrawBreaks(gl);
@@ -123,25 +119,24 @@ public class GameRenderer  implements Renderer{
 
 	private void MoveCar(){
 
-		if(Global.PLAYER_ACTION != Global.ACCELERATOR_PRESSED) return;
+		if(Global.PLAYER_ACTION == Global.ACCELERATOR_PRESSED)
+		{
+			float currentTrack = player.getTrack();
 
-		float currentTrack = player.getTrack();
-
-		if(Global.SENSORE_ACCELEROMETER_X > 0.5 ){
-			if(currentTrack > carLLimit){
-				player.setTrack(currentTrack - (float)Global.SENSORE_ACCELEROMETER_X/25);
-			}else{
-				player.setTrack(carLLimit);
+			if (Global.SENSORE_ACCELEROMETER_X > 0.5) {
+				if (currentTrack > carLLimit) {
+					player.setTrack(currentTrack - (float) Global.SENSORE_ACCELEROMETER_X / 25);
+				} else {
+					player.setTrack(carLLimit);
+				}
+			} else if (Global.SENSORE_ACCELEROMETER_X < -0.5) {
+				if (currentTrack < carRLimit) {
+					player.setTrack(currentTrack - (float) Global.SENSORE_ACCELEROMETER_X / 25);
+				} else {
+					player.setTrack(currentTrack);
+				}
 			}
 		}
-		else if(Global.SENSORE_ACCELEROMETER_X < -0.5 ){
-			if(currentTrack < carRLimit){
-				player.setTrack(currentTrack - (float)Global.SENSORE_ACCELEROMETER_X/25);
-			}else{
-				player.setTrack(currentTrack);
-			}
-		}
-
 		if(enemies.isAnyColliding(player)){
 			GameActivity.getInstance().finish();
 		}
@@ -157,7 +152,7 @@ public class GameRenderer  implements Renderer{
 		gl.glLoadIdentity();
 		gl.glPushMatrix();
 		gl.glScalef(.15f, Global.getProportionateHeight(0.15f), .15f);
-		gl.glTranslatef(player.getTrack(), 1f, 0f);
+		gl.glTranslatef(player.getTrack(), player.getPosition(), 0f);
 
 		gl.glMatrixMode(GL10.GL_TEXTURE);
 		gl.glLoadIdentity();
@@ -220,7 +215,7 @@ public class GameRenderer  implements Renderer{
 
 		// Load textures
 		road.loadTexture(gl, Global.ROAD , Global.context);
-		player.loadTexture(gl, Global.CAR, Global.context);;
+		player.loadTexture(gl, Global.CAR, Global.context);
 		enemies = new EnemiesController(gl);
 
 		accelerator.loadTexture(gl, Global.ACCELERATOR, Global.context);

@@ -47,8 +47,6 @@ public class EnemiesController {
 
             respawn(car);
 
-            //isAnyCollidingWithPlayer(car, player);
-
             updatePositions(car);
         }
     }
@@ -76,18 +74,6 @@ public class EnemiesController {
         return random.nextInt(3) + 2;
     }
 
-    public void isAnyCollidingWithPlayer(TexCar car, TexCar player){
-
-        if(car.getPosition() <= 2.0f && car.getPosition() >= 0.8f){
-
-            float playerPos = player.getPosition();
-            float carTrack = car.getTrack();
-
-            if(isEnemyColliding(carTrack, playerPos))
-                GameActivity.getInstance().finish();
-        }
-    }
-
     public boolean isAnyColliding(TexCar player){
 
         Bounds playerBounds = player.getCurrentBounds();
@@ -95,10 +81,6 @@ public class EnemiesController {
         for (TexCar enemy : enemies) {
 
             Bounds enemyBounds = enemy.getCurrentBounds();
-
-            Log.i("Player TOP: ", "" + playerBounds.Top);
-            Log.i("Enemy TOP: ", "" + enemyBounds.Top);
-            Log.i("Enemy DOWN: ", "" + enemyBounds.Down);
 
             if(playerBounds.Top >= enemyBounds.Down && playerBounds.Top <= enemyBounds.Top){
 
@@ -120,17 +102,6 @@ public class EnemiesController {
         }
 
         return false;
-    }
-
-    private boolean isEnemyColliding(float carTrack, float playerPos){
-        if((carTrack + 0.3f < playerPos && carTrack + 0.5f > playerPos &&
-            carTrack - 0.3f > playerPos && carTrack - 0.5f < playerPos) ||
-           (carTrack - 0.3f < playerPos && carTrack + 0.5f > playerPos &&
-            carTrack + 0.3f > playerPos && carTrack - 0.5f < playerPos)){
-            return  true;
-        }
-
-        return  false;
     }
 
     private void updatePositions(TexCar car){
