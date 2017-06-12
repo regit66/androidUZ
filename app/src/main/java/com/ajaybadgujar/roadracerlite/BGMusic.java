@@ -53,5 +53,4 @@ public class BGMusic extends Service {
 	public IBinder onBind(Intent intent) {		
 		return null;
 	}
-
 }

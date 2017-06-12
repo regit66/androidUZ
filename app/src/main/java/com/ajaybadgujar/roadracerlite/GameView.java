@@ -14,5 +14,4 @@ public class GameView extends GLSurfaceView {
 		
 		this.setRenderer(renderer);
 	}
-
 }

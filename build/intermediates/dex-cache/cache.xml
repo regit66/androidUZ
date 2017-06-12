@@ -3,48 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Marcin\AndroidStudioProjects\RoadRacerLite\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Adrian\Documents\GitHub\androidUZ\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c477c371f2901f8e7a7fb4d25d40d0738c42b2f2">
-        <dex dex="C:\Users\Marcin\AndroidStudioProjects\RoadRacerLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6ef0611701feb8e7e1d67769b213bb3de5427a52\classes.dex" />
+        sha1="16ab9e2eef8b7d4a8873c2a61777c61f08d4d7bd">
+        <dex dex="C:\Users\Adrian\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f8c67e293d5bb96ce6ed7783aa2bbb0b27455789\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Adrian\Documents\GitHub\androidUZ\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e4121498a53475d2b41263ad769b2889a4b1d6f0">
-        <dex dex="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_593ee398d7657ac6f623dbcee35d3862e7e0a866\classes.dex" />
+        sha1="beb88649fc17042d42df84664eea76bd5e17fe88">
+        <dex dex="C:\Users\Adrian\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_25e0737018fa27952ec41545fb13b0a86e558e1b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9a8481f737fca1045c9ef14c12fd9b52adf2d744">
-        <dex dex="C:\Users\Marcin\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7815711143974be63a7649bf08b6b0c7462a77e7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Marcin\AndroidStudioProjects\RoadRacerLite\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b997a31d01add0243cf81a472f3c2546c8c48000">
-        <dex dex="C:\Users\Marcin\AndroidStudioProjects\RoadRacerLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ea55856addcad60640225e0d23a273488976a6a0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Marcin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jar="D:\Programy\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="C:\Users\Marcin\AndroidStudioProjects\RoadRacerLite\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_64bc6171015ce379e80aa65d634514b61ec854c4\classes.dex" />
+        <dex dex="C:\Users\Adrian\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_ab798fe5af2c9b711670438636b89f8e32bb3172\classes.dex" />
     </item>
 
 </items>

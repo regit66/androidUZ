@@ -2,16 +2,10 @@ package com.ajaybadgujar.roadracerlite;
 
 public class TexCar extends Texture {
 
-	public float getTrack() {
-		return track;
-	}
+	private float track;
+	private float position;
+	private float speed;
 
-	public void setTrack(float track) {
-		this.track = track;
-	}
-
-	private float track=0;
-	private float spedd=10;
 	private static float texture[] = {
 		0.0f, 0.0f,
 		1.0f, 0.0f,
@@ -19,15 +13,35 @@ public class TexCar extends Texture {
 		0.0f, 1.0f
 	};
 
-	public TexCar(){
+	public TexCar(float startPosition, float startTrack)
+	{
 		super(texture);
+
+		position = startPosition;
+		track = startTrack;
 	}
 
-	public  float getSpedd() {
-		return spedd;
-	}
+	public float getTrack() { return track; }
+	public void setTrack(float track) { this.track = track; }
 
-	public void setSpedd(float spedd) {
-		this.spedd = spedd;
+	public  float getPosition() { return position; }
+	public void setPosition(float position) { this.position = position; }
+
+	public float getSpeed(){ return speed; }
+	public void setSpeed(float speed){ this.speed = speed; }
+
+	public Bounds getCurrentBounds(){
+
+		Bounds bounds = new Bounds();
+
+		float v = 0.4f;
+		float h = 0.05f;
+
+		bounds.Top = position + h;
+		bounds.Down = position - h;
+		bounds.Left = track - v;
+		bounds.Right = track + v;
+
+		return bounds;
 	}
 }

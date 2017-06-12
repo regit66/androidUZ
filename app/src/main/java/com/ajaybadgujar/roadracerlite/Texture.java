@@ -81,13 +81,13 @@ public class Texture {
 		InputStream imagestream = context.getResources().openRawResource(texture);
 		Bitmap bitmap = null;
 		try {
-		bitmap = BitmapFactory.decodeStream(imagestream);
+			bitmap = BitmapFactory.decodeStream(imagestream);
 		}catch(Exception e){
 		}finally {
 		
 		try {
-		imagestream.close();
-		imagestream = null;
+			imagestream.close();
+			imagestream = null;
 		} catch (IOException e) {
 		}
 		}

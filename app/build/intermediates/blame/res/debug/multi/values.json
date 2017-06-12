@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 103
                 },
                 "from": {
-                    "file": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 58,
+                        "startOffset": 59,
                         "endColumn": 52,
-                        "endOffset": 106
+                        "endOffset": 107
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 156
                 },
                 "from": {
-                    "file": "C:\\Users\\Marcin\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 112,
+                        "startOffset": 113,
                         "endColumn": 52,
-                        "endOffset": 160
+                        "endOffset": 161
                     }
                 }
             }
