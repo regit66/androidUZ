@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_btn.png",
-        "source": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\start_btn.png"
+        "merged": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_btn_pressed.png",
+        "source": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\start_btn_pressed.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_btn_pressed.png",
-        "source": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\start_btn_pressed.png"
+        "merged": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\start_btn.png",
+        "source": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\start_btn.png"
     },
     {
-        "merged": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\menu_bg.png",
-        "source": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\menu_bg.png"
+        "merged": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\menu_bg.png",
+        "source": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\src\\main\\res\\drawable-hdpi\\menu_bg.png"
     }
 ]

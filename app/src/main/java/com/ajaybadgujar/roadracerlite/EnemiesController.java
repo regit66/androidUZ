@@ -7,11 +7,14 @@ import java.util.Random;
 
 import javax.microedition.khronos.opengles.GL10;
 
+import static com.ajaybadgujar.roadracerlite.Options.NUMBER_OF_ENEMIES;
+import static com.ajaybadgujar.roadracerlite.Options.OFFSET_BETWEEN_ENEMIES;
+
 public class EnemiesController {
 
-    private int numberOfEnemies = 5;
+    private int numberOfEnemies = NUMBER_OF_ENEMIES;
     private float spawnPosition = 11f;
-    private float offsetBetweenCars = 2.5f;
+    private float offsetBetweenCars = OFFSET_BETWEEN_ENEMIES;
     private float enemiesSpeed = 0.08f;
 
     private ArrayList<TexCar> enemies;
@@ -20,7 +23,7 @@ public class EnemiesController {
 
     private Random random;
 
-    public EnemiesController(GL10 gll0){
+    public EnemiesController(GL10 gll0) {
 
         gl = gll0;
 
@@ -31,19 +34,18 @@ public class EnemiesController {
         random = new Random();
     }
 
-    public void update(TexCar player){
+    public void update(TexCar player) {
 
-        if(enemies.size() == 0) {
+        if (enemies.size() == 0) {
             addCar();
-        }
-        else if(enemies.size() < numberOfEnemies){
+        } else if (enemies.size() < numberOfEnemies) {
 
-            if(spawnPosition - lastSpawnedEnemy.getPosition() >= offsetBetweenCars){
+            if (spawnPosition - lastSpawnedEnemy.getPosition() >= offsetBetweenCars) {
                 addCar();
             }
         }
 
-        for(TexCar car : enemies){
+        for (TexCar car : enemies) {
 
             respawn(car);
 
@@ -51,15 +53,15 @@ public class EnemiesController {
         }
     }
 
-    private void respawn(TexCar car){
+    private void respawn(TexCar car) {
 
-        if(car.getPosition() <= -1){
-                car.setTrack(getRandomTrack());
-                car.setPosition(spawnPosition);
+        if (car.getPosition() <= -1) {
+            car.setTrack(getRandomTrack());
+            car.setPosition(spawnPosition);
         }
     }
 
-    private void addCar(){
+    private void addCar() {
         TexCar enemy = new TexCar(spawnPosition, getRandomTrack());
 
         enemy.loadTexture(gl, Global.CAR, Global.context);
@@ -70,11 +72,11 @@ public class EnemiesController {
         lastSpawnedEnemy = enemy;
     }
 
-    private int getRandomTrack(){
+    private int getRandomTrack() {
         return random.nextInt(3) + 2;
     }
 
-    public boolean isAnyColliding(TexCar player){
+    public boolean isAnyColliding(TexCar player) {
 
         Bounds playerBounds = player.getCurrentBounds();
 
@@ -82,29 +84,28 @@ public class EnemiesController {
 
             Bounds enemyBounds = enemy.getCurrentBounds();
 
-            if(playerBounds.Top >= enemyBounds.Down && playerBounds.Top <= enemyBounds.Top){
+            if (playerBounds.Top >= enemyBounds.Down && playerBounds.Top <= enemyBounds.Top) {
 
                 return checkRightOrLeftColliding(playerBounds, enemyBounds);
-            }
-            else if(playerBounds.Down >= enemyBounds.Down && playerBounds.Down <= enemyBounds.Top){
+            } else if (playerBounds.Down >= enemyBounds.Down && playerBounds.Down <= enemyBounds.Top) {
 
                 return checkRightOrLeftColliding(playerBounds, enemyBounds);
             }
         }
-        return  false;
+        return false;
     }
 
-    private boolean checkRightOrLeftColliding(Bounds playerBounds, Bounds enemyBounds){
+    private boolean checkRightOrLeftColliding(Bounds playerBounds, Bounds enemyBounds) {
 
-        if((playerBounds.Right <= enemyBounds.Right && playerBounds.Right >= enemyBounds.Left) ||
-                (playerBounds.Left >= enemyBounds.Left && playerBounds.Left <= enemyBounds.Right)){
+        if ((playerBounds.Right <= enemyBounds.Right && playerBounds.Right >= enemyBounds.Left) ||
+                (playerBounds.Left >= enemyBounds.Left && playerBounds.Left <= enemyBounds.Right)) {
             return true;
         }
 
         return false;
     }
 
-    private void updatePositions(TexCar car){
+    private void updatePositions(TexCar car) {
 
         car.setPosition(car.getPosition() - car.getSpeed());
 

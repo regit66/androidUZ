@@ -2,43 +2,36 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="21"
-    density="xhdpi"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="207883138603183"
-    token="-3517380550681560127"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="105375716124001"
+    token="3363028869236661747"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="140" />
+        duration="939" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="11" />
+        duration="482" />
     <task
         name="verifier"
-        duration="2" />
+        duration="179" />
 
     <artifact
-        location="C:\Users\Adrian\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-        type="DEX" />
+        location="D:\Users\Marek\Documents\GitHub\abc\androidUZ\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="204148168374330"
+        timestamp="105375716124001"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Adrian\Documents\GitHub\androidUZ\app\build\outputs\apk\app-debug.apk"
+            location="D:\Users\Marek\Documents\GitHub\abc\androidUZ\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="207883138603183"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Adrian\Documents\GitHub\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

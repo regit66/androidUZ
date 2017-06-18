@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_menu.xml",
-        "source": "C:\\Users\\Adrian\\Documents\\GitHub\\androidUZ\\app\\src\\main\\res\\layout\\main_menu.xml"
+        "merged": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\options.xml",
+        "source": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\src\\main\\res\\layout\\options.xml"
+    },
+    {
+        "merged": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_menu.xml",
+        "source": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\src\\main\\res\\layout\\main_menu.xml"
     }
 ]

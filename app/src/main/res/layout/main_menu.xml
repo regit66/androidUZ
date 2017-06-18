@@ -2,22 +2,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="${packageName}.${activityClass}" >
+    tools:context="${packageName}.${activityClass}" ><![CDATA[
+
+    android:layout_marginLeft="67dp" />
+
+    ]]>
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:src="@drawable/menu_bg"
+        android:layout_width="4000dp"
+        android:layout_height="800dp"
+        android:id="@+id/imageView"
         android:scaleType="fitXY"
-        android:src="@drawable/menu_bg" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
-    <ImageButton
-        android:id="@+id/btn_startrace"
+    <Button
+        android:text="Start Game"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/start_btn_selector"
-        android:layout_marginBottom="50dp" 
-        />
-    
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="206dp"
+
+        android:id="@+id/startGameBtn" />
+
+    <Button
+        android:text="Options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startGameBtn"
+        android:layout_alignLeft="@+id/startGameBtn"
+        android:layout_marginTop="23dp"
+        android:id="@+id/optionsBtn"
+        android:layout_alignRight="@+id/startGameBtn"
+/>
+
+    <Button
+        android:text="Exit game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionsBtn"
+        android:layout_alignLeft="@+id/optionsBtn"
+        android:layout_marginTop="22dp"
+        android:id="@+id/exitGameBtn"
+        android:layout_alignRight="@+id/optionsBtn" />
+
 </RelativeLayout>
