@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="21"
+    api-level="23"
     density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="105375716124001"
-    token="3363028869236661747"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="375752978823911"
+    token="8436696204278713730"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="939" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="482" />
+        duration="0" />
     <task
         name="verifier"
-        duration="179" />
+        duration="0" />
 
     <artifact
-        location="D:\Users\Marek\Documents\GitHub\abc\androidUZ\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Marcin\Downloads\androidUZ-master\androidUZ-master\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="105375716124001"
+        timestamp="375058761619008"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\Users\Marek\Documents\GitHub\abc\androidUZ\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Marcin\Downloads\androidUZ-master\androidUZ-master\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="375752978823911"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Marcin\Downloads\androidUZ-master\androidUZ-master\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

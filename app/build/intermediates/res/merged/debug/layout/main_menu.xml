@@ -25,9 +25,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="133dp"
         android:layout_marginTop="206dp"
-        android:shadowColor="#000000"
-        android:shadowRadius="2"
-        android:textStyle="bold"
+
         android:id="@+id/startGameBtn" />
 
     <Button
@@ -39,11 +37,7 @@
         android:layout_marginTop="23dp"
         android:id="@+id/optionsBtn"
         android:layout_alignRight="@+id/startGameBtn"
-
-        android:shadowColor="#644CA8"
-        android:shadowDx="1"
-        android:shadowDy="1"
-        android:shadowRadius="1"/>
+/>
 
     <Button
         android:text="Exit game"

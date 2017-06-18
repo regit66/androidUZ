@@ -1,7 +1,7 @@
-#Sun Jun 18 14:50:07 CEST 2017
-base.0=D\:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1efe46ba673604edb09b0182f8bc632c1a15f9ff
+#Sun Jun 18 19:29:59 CEST 2017
+base.0=C\:\\Users\\Marcin\\Downloads\\androidUZ-master\\androidUZ-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d91b8756a2c46e16abc846589be42c4bddd19d4a
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=D\:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_838de49a0f99e3cc0d33e2f867b9f031f82df7e2\\classes.dex
-base.1=D\:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_838de49a0f99e3cc0d33e2f867b9f031f82df7e2
-file.0=D\:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1efe46ba673604edb09b0182f8bc632c1a15f9ff\\classes.dex
+file.1=C\:\\Users\\Marcin\\Downloads\\androidUZ-master\\androidUZ-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f3c59f7e9aabfb28ae40f00ff31210c49d6f4d4c\\classes.dex
+base.1=C\:\\Users\\Marcin\\Downloads\\androidUZ-master\\androidUZ-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f3c59f7e9aabfb28ae40f00ff31210c49d6f4d4c
+file.0=C\:\\Users\\Marcin\\Downloads\\androidUZ-master\\androidUZ-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d91b8756a2c46e16abc846589be42c4bddd19d4a\\classes.dex

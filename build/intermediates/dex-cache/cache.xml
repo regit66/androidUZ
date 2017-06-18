@@ -3,30 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="D:\Users\Marek\Documents\GitHub\abc\androidUZ\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Marcin\Downloads\androidUZ-master\androidUZ-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e832d08226f96cd14f6dfb39fc03d95b23449e66">
-        <dex dex="D:\Users\Marek\Documents\GitHub\abc\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_838de49a0f99e3cc0d33e2f867b9f031f82df7e2\classes.dex" />
+        sha1="46a684993fdb9473e0f32bd182916c00f3b67d80">
+        <dex dex="C:\Users\Marcin\Downloads\androidUZ-master\androidUZ-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d91b8756a2c46e16abc846589be42c4bddd19d4a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Users\Marek\Documents\GitHub\abc\androidUZ\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Marcin\Downloads\androidUZ-master\androidUZ-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="41089c65328b9020f47128cf92732c7e2e85ee78">
-        <dex dex="D:\Users\Marek\Documents\GitHub\abc\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1efe46ba673604edb09b0182f8bc632c1a15f9ff\classes.dex" />
+        sha1="08cb52ccb8ec549c1cb285538f7be7fdab518f5c">
+        <dex dex="C:\Users\Marcin\Downloads\androidUZ-master\androidUZ-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f3c59f7e9aabfb28ae40f00ff31210c49d6f4d4c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Marek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jar="C:\Users\Marcin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="D:\Users\Marek\Documents\GitHub\abc\androidUZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_936d55d87fe6efc44d310d31709e1344a987655a\classes.dex" />
+        <dex dex="C:\Users\Marcin\Downloads\androidUZ-master\androidUZ-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_64bc6171015ce379e80aa65d634514b61ec854c4\classes.dex" />
     </item>
 
 </items>

@@ -1,23 +1,23 @@
 [
     {
-        "outputFile": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Marcin\\Downloads\\androidUZ-master\\androidUZ-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 52,
-                    "endOffset": 103
+                    "endColumn": 47,
+                    "endOffset": 98
                 },
                 "from": {
-                    "file": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\Marcin\\Downloads\\androidUZ-master\\androidUZ-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 59,
-                        "endColumn": 52,
-                        "endOffset": 107
+                        "startOffset": 56,
+                        "endColumn": 47,
+                        "endOffset": 99
                     }
                 }
             },
@@ -25,19 +25,25 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 108,
-                    "endColumn": 52,
+                    "startOffset": 103,
+                    "endColumn": 57,
                     "endOffset": 156
                 },
                 "from": {
-                    "file": "D:\\Users\\Marek\\Documents\\GitHub\\abc\\androidUZ\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 113,
-                        "endColumn": 52,
-                        "endOffset": 161
-                    }
+                    "file": "C:\\Users\\Marcin\\Downloads\\androidUZ-master\\androidUZ-master\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 841
+                },
+                "from": {
+                    "file": "C:\\Users\\Marcin\\Downloads\\androidUZ-master\\androidUZ-master\\app\\src\\main\\res\\values\\styles.xml"
                 }
             }
         ]
